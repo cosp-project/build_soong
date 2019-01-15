@@ -105,7 +105,7 @@ changed file, a changed environment variable, or different output from a
 `$(shell)` command:
 
 ```
-out/soong/Android-aosp_arm.mk was modified, regenerating...
+out/soong/Android-cosp_arm.mk was modified, regenerating...
 ```
 
 The state is stored in `$OUT_DIR/.kati_stamp*` files, and can be (partially)

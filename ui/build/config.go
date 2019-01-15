@@ -331,17 +331,17 @@ func (c *configImpl) Tapas(ctx Context, apps []string, arch, variant string) {
 	var product string
 	switch arch {
 	case "arm", "":
-		product = "aosp_arm"
+		product = "cosp_arm"
 	case "arm64":
 		product = "aosm_arm64"
 	case "mips":
-		product = "aosp_mips"
+		product = "cosp_mips"
 	case "mips64":
-		product = "aosp_mips64"
+		product = "cosp_mips64"
 	case "x86":
-		product = "aosp_x86"
+		product = "cosp_x86"
 	case "x86_64":
-		product = "aosp_x86_64"
+		product = "cosp_x86_64"
 	default:
 		ctx.Fatalf("Invalid architecture: %q", arch)
 	}

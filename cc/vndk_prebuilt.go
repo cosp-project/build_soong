@@ -50,7 +50,7 @@ type vndkPrebuiltProperties struct {
 	// VNDK snapshot version.
 	Version *string
 
-	// Target arch name of the snapshot (e.g. 'arm64' for variant 'aosp_arm64_ab')
+	// Target arch name of the snapshot (e.g. 'arm64' for variant 'cosp_arm64_ab')
 	Target_arch *string
 
 	// Prebuilt files for each arch.
