@@ -117,7 +117,7 @@ func installClean(ctx Context, config Config, what int) {
 		productOut("installer"),
 		productOut("odm"),
 		productOut("sysloader"),
-		productOut("testcases")),
+		productOut("testcases"),
 		outDir("ota_conf"))
 }
 
